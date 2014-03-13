@@ -1,27 +1,82 @@
 * {
     box-sizing: border-box;
 }
-
 h1 {
+    text-align: left;
+    font-size: 50px;
     color: red;
 }
-
 h2 {
-    font-size: 22px;
+    font-size: 40px;
     color: blue;
 }
-
 p {
     font-family: arial;
     font-size: 16 px;
     line-height:24px;
 }
-
 img {
     border: 5p solid #cccccc
         margin: 0 5% 0 5%
         padding: 5 %; /* TRouBLE */
     width: 90%;
 }
-
+nav {
+        background-color: #04B45F;
+        text-align: center;
+        font-family: serif, sans-serif;
+        font-size: 24px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color: #0040FF;
+}
+nav a:visited {
+    color: #380B61;
+}
+nav a:focus {
+    color: #81F7F3;
+}
+nav a:hover {
+    color: #81F7F3;
+}
+nav a:active {
+    color: #FFFF00;
+}
+.centercolumn {
+        margin: 0 auto 0 auto;
+        width: 256px;
+        height: 1024px;
+        text-align: left;
+        vertical-align: text-top;
+}
+.leftcolumn {
+        margin: 0 auto 0 0;
+        float: left;
+        width: 584px;
+        height: 1024px;
+        text-align: left;
+        vertical-align: text-top;
+        border-right: 6px solid #04B45F;
+}
+.rightcolumn {
+        margin-left: 600px;
+        width: 384px;
+        height: 1024px;
+        text-align: left;
+        vertical-align: text-top;
+}
+.portres {
+    text-align: center;
+    font-size: 50px
+}
+#homebanner {
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottomlinks {
+        font-size: 18px;
+}
 
