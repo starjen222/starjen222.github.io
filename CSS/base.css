@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-size: 22px;
+    color: blue;
+}
+
+p {
+    font-family: arial;
+    font-size: 16 px;
+    line-height:24px;
+}
+
+img {
+    border: 5p solid #cccccc
+        margin: 0 5% 0 5%
+        padding: 5 %; /* TRouBLE */
+    width: 90%;
+}
+
+
