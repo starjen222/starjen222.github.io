@@ -1,40 +1,49 @@
-* {
+*{
     box-sizing: border-box;
 }
+
+ 
+body {
+    background-color: #ccc;
+    background-image: url("/img/lightgreentexture.jpg");
+    background-size: 250px;
+    background-repeat: repeat;
+}
 h1 {
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-align: left;
     font-size: 50px;
-    color: red;
+    color: black;
 }
 h2 {
+    font-family:Lucida Grande, sans-serif;
     font-size: 40px;
     color: blue;
 }
 p {
     font-family: arial;
-    font-size: 16 px;
+    font-size: 16px;
     line-height:24px;
 }
 img {
-    border: 5p solid #cccccc
-        margin: 0 5% 0 5%
+    border: 5px solid #cccccc;
+        margin: 0 5% 0 5%;
         padding: 5 %; /* TRouBLE */
-    width: 90%;
 }
 nav {
-        background-color: #04B45F;
+        background-color: #000014;
         text-align: center;
-        font-family: serif, sans-serif;
+        font-family: Lucida Grande, sans-serif;
         font-size: 24px;
 }
 nav a {
     text-decoration: none;
 }
 nav a:link {
-    color: #0040FF;
+    color: #E9E9FF;
 }
 nav a:visited {
-    color: #380B61;
+    color: #0066FF ;
 }
 nav a:focus {
     color: #81F7F3;
@@ -43,28 +52,22 @@ nav a:hover {
     color: #81F7F3;
 }
 nav a:active {
-    color: #FFFF00;
+    color: #0040FF;
 }
-.centercolumn {
-        margin: 0 auto 0 auto;
-        width: 256px;
-        height: 1024px;
-        text-align: left;
-        vertical-align: text-top;
-}
+
 .leftcolumn {
-        margin: 0 auto 0 0;
+        margin: 0 auto 0 auto;
         float: left;
+        height: 1500px;
         width: 584px;
-        height: 1024px;
         text-align: left;
         vertical-align: text-top;
         border-right: 6px solid #04B45F;
 }
 .rightcolumn {
-        margin-left: 600px;
+        margin: 0 0 0 600px;
+        height: 1500px;
         width: 384px;
-        height: 1024px;
         text-align: left;
         vertical-align: text-top;
 }
