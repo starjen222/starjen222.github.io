@@ -57,6 +57,7 @@ nav a:hover {
 nav a:active {
     color: #0040FF;
 }
+
 .captionphoto {
     margin: 50px auto 0 auto;
     text-align: center;
@@ -77,6 +78,7 @@ nav a:active {
         text-align: left;
         vertical-align: text-top;
 }
+
 .photocell {
     border: 10px solid #000000;
     border-radius: 25px;
