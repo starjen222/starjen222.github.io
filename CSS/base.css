@@ -68,29 +68,40 @@ nav a:active {
 .leftcolumn {
         margin: 0 auto 0 auto;
         float: left;
-        height: 1500px;
-        width: 784px;
+        height: 1500;
+        width: 600px;
+        text-align: left;
+        vertical-align: text-top;
+        border-right: 6px solid #04B45F;
+}
+.aleftcolumn {
+        margin: 0 auto 0 auto;
+        float: left;
+        height: 1500;
+        width: 600px;
         text-align: left;
         vertical-align: text-top;
         border-right: 6px solid #04B45F;
 }
 .rightcolumn {
         margin: 0 0 0 600px;
-        float: inherit
         height: 1500px;
         width: 384px;
         text-align: left;
         vertical-align: text-top
 }
-
-}footer
-
-clear: both
+.arightcolumn {
+        margin: 0 0 0 600px;
+        height: 800px;
+        width: 384px;
+        text-align: left;
+        vertical-align: text-top
 }
 
 .photocell {
     border: 10px solid #000000;
     border-radius: 25px;
+    width: 420px;
     
 }
 .portres {
