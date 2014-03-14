@@ -10,8 +10,11 @@ body {
     background-repeat: repeat;
 }
 h1 {
+    background-image: url("/img/j.gif");
+    background-size: 100% 100%;
     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-align: left;
+    height: 80px;
     font-size: 50px;
     color: black;
 }
@@ -54,7 +57,10 @@ nav a:hover {
 nav a:active {
     color: #0040FF;
 }
-
+.captionphoto {
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
 .leftcolumn {
         margin: 0 auto 0 auto;
         float: left;
@@ -71,6 +77,11 @@ nav a:active {
         text-align: left;
         vertical-align: text-top;
 }
+.photocell {
+    border: 10px solid #000000;
+    border-radius: 25px;
+    
+}
 .portres {
     text-align: center;
     font-size: 50px
@@ -81,5 +92,10 @@ nav a:active {
 }
 #bottomlinks {
         font-size: 18px;
+}
+#phototable {
+    width: 1200px;
+    border: 10px solid #04B45F;
+    border-radius: 25px;
 }
 
