@@ -68,8 +68,6 @@ nav a:active {
 .leftcolumn {
         margin: 0 auto 0 auto;
         float: left;
-        height: 1500;
-        width: 600px;
         text-align: left;
         vertical-align: text-top;
         border-right: 6px solid #04B45F;
@@ -85,8 +83,6 @@ nav a:active {
 }
 .rightcolumn {
         margin: 0 0 0 600px;
-        height: 1500px;
-        width: 384px;
         text-align: left;
         vertical-align: text-top
 }
