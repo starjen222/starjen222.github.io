@@ -34,7 +34,7 @@ img {
     height: auto;
     border: 5px solid #cccccc;
     margin: 0 5% 0 5%;
-    padding: 5 %; /* TRouBLE */
+    padding: 5%;
 }
 nav {
         background-color: #000014;
@@ -60,40 +60,42 @@ nav a:hover {
 nav a:active {
     color: #0040FF;
 }
-
 .captionphoto {
     margin: 50px auto 0 auto;
     text-align: center;
 }
 .leftcolumn {
-        margin: 0 auto 0 auto;
-        float: left;
+        margin: 0 50% 0 10%;
         text-align: left;
+		width: 40%;
+        padding-right: 5%;
         vertical-align: text-top;
         border-right: 6px solid #04B45F;
-}
-.aleftcolumn {
-        margin: 0 auto 0 auto;
-        float: left;
-        height: 1500;
-        width: 600px;
-        text-align: left;
-        vertical-align: text-top;
-        border-right: 6px solid #04B45F;
-}
-.rightcolumn {
-        margin: 0 0 0 600px;
-        text-align: left;
-        vertical-align: text-top
-}
-.arightcolumn {
-        margin: 0 0 0 600px;
-        height: 800px;
-        width: 384px;
-        text-align: left;
-        vertical-align: text-top
 }
 
+.rightcolumn {
+        padding-top: 8%;
+        position: relative;
+        right: 5%;
+        margin: 0 auto 0 auto;
+		width: 40%;
+		float: right;
+		text-align: left;
+        vertical-align: text-top;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.fullsize {
+    width: 100%;
+    height: 100%;
+}
+.halfsize {
+    width: 40%;
+    height: 40%;
+}
 .photocell {
     border: 10px solid #000000;
     border-radius: 25px;
@@ -104,16 +106,23 @@ nav a:active {
     text-align: center;
     font-size: 50px
 }
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
 #homebanner {
     margin-left: auto;
     margin-right: auto;           
-
 }
-#bottomlinks 
-        font-size: 18px;
+#bottomlinks {
+    font-size: 18px;
 }
 #phototable {
     width: 1200px;
     border: 10px solid #04B45F;
-    border-radius: 25px;}
+    border-radius: 25px;
+}
+	
+
 
