@@ -32,7 +32,6 @@ img {
   
     max-width: 100%;
     height: auto;
-    border: 5px solid #cccccc;
     margin: 0 5% 0 5%;
     padding: 5%;
 }
@@ -85,7 +84,7 @@ nav a:active {
 }
 .center {
 	margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
 	text-align: center;
 }
 .fullsize {
@@ -96,11 +95,18 @@ nav a:active {
     width: 40%;
     height: 40%;
 }
+.tablesize {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 .photocell {
     border: 10px solid #000000;
     border-radius: 25px;
-    width: 420px;
-    
+    width: 30%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
 }
 .portres {
     text-align: center;
@@ -119,7 +125,7 @@ nav a:active {
     font-size: 18px;
 }
 #phototable {
-    width: 1200px;
+    width: 100%;
     border: 10px solid #04B45F;
     border-radius: 25px;
 }
