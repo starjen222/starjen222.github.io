@@ -3,17 +3,19 @@
 }
 
  
+ 
 body {
     background-color: #ccc;
-    background-image: url("/img/lightgreentexture.jpg");
+    background-image: url("img/lightgreentexture.jpg");
     background-size: 250px;
     background-repeat: repeat;
-}
+ }
 h1 {
-    background-image: url("/img/j.gif");
+    background-image: url("img/j.gif");
     background-size: 100% 100%;
     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-align: left;
+		padding-left:20px;
     height: 80px;
     font-size: 50px;
     color: black;
@@ -27,13 +29,6 @@ p {
     font-family: arial;
     font-size: 16px;
     line-height:24px;
-}
-img {
-  
-    max-width: 100%;
-    height: auto;
-    margin: 0 5% 0 5%;
-    padding: 5%;
 }
 nav {
         background-color: #000014;
@@ -66,21 +61,16 @@ nav a:active {
 .leftcolumn {
         margin: 0 50% 0 10%;
         text-align: left;
-		width: 40%;
+				width: 40%;
         padding-right: 5%;
         vertical-align: text-top;
         border-right: 6px solid #04B45F;
 }
 
 .rightcolumn {
-        padding-top: 8%;
-        position: relative;
-        right: 5%;
-        margin: 0 auto 0 auto;
-		width: 40%;
-		float: right;
-		text-align: left;
-        vertical-align: text-top;
+  width:40%;
+	float:right;
+	position:relative;
 }
 .center {
 	margin-left: auto;
@@ -96,8 +86,8 @@ nav a:active {
     height: 40%;
 }
 .tablesize {
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
 }
