@@ -6,12 +6,12 @@
  
 body {
     background-color: #ccc;
-    background-image: url("img/lightgreentexture.jpg");
+    background-image: url("/img/lightgreentexture.jpg");
     background-size: 250px;
     background-repeat: repeat;
  }
 h1 {
-    background-image: url("img/j.gif");
+    background-image: url("/img/j.gif");
     background-size: 100% 100%;
     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
     text-align: left;
