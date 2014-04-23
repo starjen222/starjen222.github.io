@@ -172,6 +172,9 @@ nav a:active {
 .padding {
     padding: 5% 5% 5% 5%;
 }
+.txtalignright {
+    text-align: right;
+}
 #bottomcolumn {
     width: 80%;
     margin-left: auto;
