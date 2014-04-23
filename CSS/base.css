@@ -23,14 +23,15 @@ h1 {
     color: black;
 }
 h2 {
-    font-family:Lucida Grande, sans-serif;
-    font-size: 40px;
-    color: blue;
+font-family: 'Asap', 'sans-serif';    
+font-size: 40px;
+color: #400000;
 }
 p {
-    font-family: arial;
+    font-family: font-family: 'Raleway', 'sans-serif';
     font-size: 16px;
     line-height:24px;
+    color: #00004C;
 }
 nav {
         background-color: #336633;
