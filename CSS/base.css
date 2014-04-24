@@ -139,13 +139,18 @@ nav a:active {
 }
 .indeximgtable {
     float: right;
-    width: 70%;
-    height: 200px;
+    width: 600px;
+    height: 150px;
 }
 .indeximgcell {
-    width: 30%;
+    width: 200px;
     border: 5px solid black;
-    height: 200px;
+    height: 150px;
+}
+.aboutimgcell {
+    width: 200px;
+    border: 5px solid black;
+    height: 240px;
 }
 .photocell {
     border: 10px solid #000000;
@@ -157,12 +162,20 @@ nav a:active {
 .photocell:hover {
     border-color: #04B45F;
 }
+.highlight {
+    padding: 5px 5px 5px 5px;
+}
 .highlight:hover {
     border: 5px solid green;
+    padding: 0 0 0 0;
+}
+.circlehighlight {
+    border: 5px solid transparent;
     padding: 5px 5px 5px 5px;
 }
 .circlehighlight:hover {
     border: 5px solid #FFFFFF;
+    padding: 0 0 0 0;
     border-radius: 100px;
 }
 .portres {
